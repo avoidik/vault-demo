@@ -1,1 +1,1 @@
-docker ps -qa|xargs docker rm -f
+docker rm -f vault-dev config consul postgres
